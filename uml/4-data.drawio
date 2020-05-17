@@ -1,5 +1,123 @@
-<mxfile host="localhost" modified="2020-05-15T15:59:24.634Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" version="13.0.9" etag="XwrtbxAslejg1jiWwMvD">
-    <diagram id="6ZE538LMrfUPq1R7d1zo">
-        7Vvfk5s2EP5rPNM+pIP4YbuPtu+SPlxmbnKd6bMOZKNEsB4hn+389V2BMHCYxo2JnF515xnDxwqz+2n17WI8CVbZ4YOk2/QjJExMfC85TIK7ie+TwJvhm0aOFTIn8wrYSJ5UkNcAT/wrMyNrdMcTVhisghSAUHzbBWPIcxarDkalhH3XbA0i6QBbumE94Cmmoo/+xROVGpR4XnPgD8Y3qfnoeWQOZLQ2NkCR0gT2LSi4nwQrCaCqreywYkIHrxuX9wNHTxcmWa4uGhBWI16o2BnnzIWpY+0tS9B5swtSpbCBnIr7Bl1K2OUJ06f0cK+xeQDYIkgQ/MyUOhom6U4BQqnKhDm6hlytQIAsPzHwIv2PeHUt+gIG/TNQATsZGyvjgqJyw1R75pgYfGCQMSWPaCOZoIq/dE9PzfTYnOyaCOKGCeL5gPq9eK5Asl5Miz3PBM2Z8b0Or44FFXyT43aMLjIMyPKFScVx8i3MAaWDuoxTLpIHeoSddrFQNP5S7y1TkPwrnpbW8cXDUpno+9OOxZMeaZiTrECbxzq65BX0kR46hg+0UAaIQQi6LfjzyY0Mo8/zJSgFmTFacyFaLK/Lv2+yr91nh3/mv0+sGTD3gmrIsZ4HZunZN3l7Ssa0nbLT6+dCcCa3lnq94UwvOAs9R4/b/uRAd1VJmoQvrA5MDtVsacXQQPWEEWytBqdLsaUxzzcPpc1d2CCfjM8aAhy7FuV6lPIkYXmZ24oqWvGqSdwCz1UZlGiJLwzdyvstmkR44SvcJ80+vrS5RG5z9IXykjKGk2bP9MS5jF//PL+GT396GZ3+CHResFQKXjJSMVdLA/ku2jIkoFxcDU9/lkvpO9LjMuhzGZzhTdBnJh6h4IqDPr+sbF/xaYGyyL8wA69nLBpIQDxRCskvOvl+dXk4BqlTz14ekt/fYM1Sl7adoiWyVLTUH96K6JIWbLLyJwuvF1tXu9ipXaJb1i6EuOLl+kVzqO24QfVC+p2JK1++hzSL9QsZ6iBcATM6rTYrGP9NVjBRv4Lxr61gyqELKemxZWBmTnPmRw00whmQrnAGc9Jmp2cf1rl63h43qitouD25clnj+H+hO/xP0E3m0Q+lO3qL91TP0R3ZuqlK+o38Io5ZgZPCQ01AeUNrXJcD4p0cdA2L9YbFv2nDMh2olVzD8m+KpIEV/BYNy+zby6hrWC4gzWbDMh9IQtewjE6rzYYl7AvweyozVEyntbfR2lm3hg1noT2pDZ3UjpDeQ83SLb7ZdFI7DmkWpTZ0UmstF63eG+xL7SemKBdObG8mtkEwe6W2c3tq6zu1HePxhZ9HbX2ntuOQZlFtfae21nLRptrWD2a3eL3j6Bl/3ilwgvuz3EmeepE9wY3coy8jJPnQl0M3ENxaJ5zgXkmazUd33aMv1nLxBwou7jY/Zqq+S29+Ehbc/w0=
+<mxfile host="localhost" modified="2020-05-17T10:43:32.420Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="NC60EgWoXFDaNTE9Bx-o" version="13.0.9">
+    <diagram id="6ZE538LMrfUPq1R7d1zo" name="Page-1">
+        <mxGraphModel dx="1014" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#050505;" parent="1" source="10" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Ownable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="803" y="107" width="220" height="167" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- origOwner: address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="52" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ owner(): address&#10;+ isOwner(): bool&#10;+ renounceOwnership()&#10;+ transferOwnership(newOwner)&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="60" width="220" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="SupplyChain" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="503" y="107" width="220" height="362" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="+ owner: address&#10;+ upc: uint&#10;+ sku: uint&#10;+ items: mapping (uint =&gt; Item)&#10;+ itemsHistory: mapping (uint =&gt; string[])&#10;+ defaultState: State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="10" vertex="1">
+                    <mxGeometry y="26" width="220" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="10" vertex="1">
+                    <mxGeometry y="132" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ kill()&#10;+ harvestItem(upc, originFarmerID, originFarmName, originFarmInformation, originFarmLatitude, originFarmLongitude, productNotes) &#10;+ processItem(upc)&#10;+ packItem(upc)&#10;+ sellItem(upc, price)&#10;+ buyItem(upc)&#10;+ shipItem(upc)&#10;+ receiveItem(upc)&#10;+ purchaseItem(upc)&#10;+ fetchItemBufferOne(upc)&#10;+ fetchItemBufferTwo(upc)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="10" vertex="1">
+                    <mxGeometry y="140" width="220" height="222" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="FarmerRole" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="213" width="220" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="- farmers: Roles.Role" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="45" vertex="1">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="45" vertex="1">
+                    <mxGeometry y="52" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="+ isFarmer(account): bool&#10;+ addFarmer(account)&#10;+ renounceFarmer()&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="45" vertex="1">
+                    <mxGeometry y="60" width="220" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="DistributorRole" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="349" width="220" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="- Roles.Role private distributors;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="25" vertex="1">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="25" vertex="1">
+                    <mxGeometry y="52" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="+ isDistributor(account): bool&#10;+ addDistributor(account)&#10;+ renounceDistributor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="25" vertex="1">
+                    <mxGeometry y="60" width="220" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="RetailerRole" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="484" width="220" height="121" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="- Roles.Role private retailers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="50" vertex="1">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="50" vertex="1">
+                    <mxGeometry y="52" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="+ isRetailer(account): bool&#10;+ addRetailer(account)&#10;+ renounceRetailer()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="50" vertex="1">
+                    <mxGeometry y="60" width="220" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="ConsumerRole" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffffff;fontColor=#050505;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="626" width="220" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="- Roles.Role private consumers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="55">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="55">
+                    <mxGeometry y="52" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="+ isConsumer(account): bool&#10;+ addConsumer(account)&#10;+ renounceConsumer()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="55">
+                    <mxGeometry y="60" width="220" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#050505;exitX=0.005;exitY=0.953;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="503" y="393.48" as="sourcePoint"/>
+                        <mxPoint x="265" y="681" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="351" y="234"/>
+                            <mxPoint x="351" y="681"/>
+                            <mxPoint x="265" y="681"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#050505;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="276" y="270.5" as="sourcePoint"/>
+                        <mxPoint x="276" y="270.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="352" y="270.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#050505;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="273" y="403" as="sourcePoint"/>
+                        <mxPoint x="273" y="403" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="349" y="403"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#050505;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="275" y="542" as="sourcePoint"/>
+                        <mxPoint x="275" y="542" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="351" y="542"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
     </diagram>
 </mxfile>

@@ -5,6 +5,7 @@ pragma solidity >=0.4.24;
  * @dev Library for managing addresses assigned to a Role.
  */
 library Roles {
+
   struct Role {
     mapping (address => bool) bearer;
   }
@@ -13,8 +14,8 @@ library Roles {
    * @dev give an account access to this role
    */
   function add(Role storage role, address account) internal {
-    require(account != address(0));
-    require(!has(role, account));
+    require(account != address(0), "Invalid address");
+    require(!has(role, account), "Role already set");
 
     role.bearer[account] = true;
   }
@@ -23,8 +24,8 @@ library Roles {
    * @dev remove an account's access to this role
    */
   function remove(Role storage role, address account) internal {
-    require(account != address(0));
-    require(has(role, account));
+    require(account != address(0), "Inavlid address");
+    require(has(role, account), "Role alreaddy set");
 
     role.bearer[account] = false;
   }
@@ -38,7 +39,7 @@ library Roles {
     view
     returns (bool)
   {
-    require(account != address(0));
+    require(account != address(0), "Inavalid address");
     return role.bearer[account];
   }
 }
